@@ -1,4 +1,4 @@
-# 🌃 Smart Street Light (IoT-ready) — Arduino + PIR + LDR
+#  Smart Street Light (IoT-ready) — Arduino + PIR + LDR
 
 A simple, power-efficient **smart street light** that turns ON only at **night** when **motion** is detected.  
 Built and tested in **Tinkercad**; easily extensible to **ESP32/ESP8266 + IoT**
@@ -7,7 +7,7 @@ Built and tested in **Tinkercad**; easily extensible to **ESP32/ESP8266 + IoT**
 
 
 
-## 📌 Overview
+##  Overview
 - Uses **LDR (photoresistor)** to detect day/night.
 - Uses **PIR sensor** to detect human/vehicle motion.
 - Turns **LED/Street light** ON only when **night + motion**.
@@ -15,7 +15,7 @@ Built and tested in **Tinkercad**; easily extensible to **ESP32/ESP8266 + IoT**
 
 ---
 
-## 🛠 Components (Simulation)
+##  Components (Simulation)
 - Arduino **UNO**
 - **PIR** Motion Sensor (OUT, VCC, GND)
 - **Photoresistor (LDR)** + **10kΩ** resistor (voltage divider)  
@@ -25,7 +25,7 @@ Built and tested in **Tinkercad**; easily extensible to **ESP32/ESP8266 + IoT**
 
 ---
 
-## 🔌 Wiring (Quick Reference)
+##  Wiring (Quick Reference)
 
 **LDR Voltage Divider → A0**
 - LDR leg 1 → **5V**
@@ -39,4 +39,5 @@ Built and tested in **Tinkercad**; easily extensible to **ESP32/ESP8266 + IoT**
 **LED**
 - **Anode (long leg)** → **D5** through **220Ω**
 - **Cathode** → **GND**
+
 
