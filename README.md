@@ -3,8 +3,10 @@
 A simple, power-efficient **smart street light** that turns ON only at **night** when **motion** is detected.  
 Built and tested in **Tinkercad**; easily extensible to **ESP32/ESP8266 + IoT**
 
----
+---##  Tinkercad Simulation
+You can try the live simulation of this project on Tinkercad:
 
+🔗 [Click here to open Smart Energy Meter in Tinkercad](https://www.tinkercad.com/things/8nwMTqH6wdH-smartstreetlight)
 
 
 ##  Overview
@@ -39,4 +41,5 @@ Built and tested in **Tinkercad**; easily extensible to **ESP32/ESP8266 + IoT**
 **LED**
 - **Anode (long leg)** → **D5** through **220Ω**
 - **Cathode** → **GND**
+  
 
